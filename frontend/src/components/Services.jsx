@@ -25,11 +25,11 @@ const Services = () => {
           <ServiceCard title="Back-end Development" icon={<IoCodeSlashOutline />} />
         </div>
         <div className="bg-[#080808] dark:bg-[rgba(10,0,0,0.9)] w-full h-auto rounded-xl p-8">
-          <div className="flex h-full justify-between flex-col">
+          <div className="flex w-full h-full justify-between flex-col">
             <div className="text-white flex  justify-end"><MoveUpRight size={32} color="white" /></div>
             <div className="mt-auto">
               <p className="text-orange-600 font-archivo uppercase text-xl">Say Hello!</p>
-              <p className="font-poppins cursor-pointer font-semibold text-xl text-zinc-50"><a href="mailto:boyaju.dipen@gmail.com">boyaju.dipen@gmail.com</a></p>
+              <p className="font-poppins cursor-pointer font-semibold md:text-xl text-lg text-zinc-50"><a href="mailto:boyaju.dipen@gmail.com">boyaju.dipen@gmail.com</a></p>
             </div>
           </div>
         </div>
