@@ -11,11 +11,9 @@ const Services = () => {
   const ref = useRef(null)
 
   return (
-    <div ref={ref} id="service" className="bg-[rgba(178,206,243,0.2)] dark:bg-[rgba(10,0,0,0.9)] p-10 md:p-20">
-      <div className="lg:grid grid-cols-12 gap-10">
-        <div className="col-span-2">
-          <p className="text-lg font-semibold uppercase text-zinc-700 dark:text-zinc-200 flex gap-2 items-center">What i do <CornerRightDown /></p>
-        </div>
+    <div ref={ref} id="service" className="bg-[rgba(178,206,243,0.2)] dark:bg-[rgba(10,0,0,0.9)] p-10 md:p-20 overflow-hidden">
+      <div className="">
+        <p className="text-lg font-semibold uppercase text-zinc-700 dark:text-zinc-200 flex gap-2 items-center">What i do <CornerRightDown /></p>
       </div>
       <div className="grid grid-row-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-10">
         <div className="md:col-span-2 grid  grid-cols-1 md:grid-cols-3 gap-6">
