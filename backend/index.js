@@ -9,7 +9,8 @@ const PORT = process.env.PORT
 
 const app = express();
 app.use(cors({
-  origin: 'http://localhost:5173',
+  // origin: 'http://localhost:5173',
+  origin: 'https://dipenboyaju.vercel.app',
   methods: 'GET,POST,',
   credentials: true,
 }));
