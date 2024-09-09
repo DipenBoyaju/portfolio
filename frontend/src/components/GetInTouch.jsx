@@ -27,7 +27,7 @@ const GetInTouch = ({ setShowContact }) => {
     e.preventDefault();
     setIsLoading(true)
     try {
-      const response = await axios.post('https://portfolio-backend-xi-six.vercel.app', formData, {
+      const response = await axios.post('https://portfolio-backend-xi-six.vercel.app/api/mail', formData, {
         headers: {
           'Content-Type': 'application/json',
         }
