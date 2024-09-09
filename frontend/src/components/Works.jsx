@@ -47,7 +47,7 @@ const Works = () => {
         }
       </div>
       <div onClick={() => nav('/portfolio')} className="text-center pt-10 pb-5">
-        <span className="p-5 bg-[rgb(15,15,39)] px-10 rounded-full text-3xl uppercase font-archivo text-white hover:bg-[rgb(41,41,90)] transition-all duration-500 cursor-pointer dark:bg-[rgba(10,0,0,0.9)] dark:hover:bg-[rgba(10,0,0,0.6)]">Discover all the Works</span>
+        <span className="p-5 bg-[rgb(15,15,39)] px-10 rounded-full md:text-3xl uppercase font-archivo text-white hover:bg-[rgb(41,41,90)] transition-all duration-500 cursor-pointer dark:bg-[rgba(10,0,0,0.9)] dark:hover:bg-[rgba(10,0,0,0.6)]">Discover all the Works</span>
       </div>
     </div>
   )
