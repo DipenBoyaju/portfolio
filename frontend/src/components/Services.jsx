@@ -18,7 +18,7 @@ const Services = () => {
         </div>
       </div>
       <div className="grid grid-row-2 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-10">
-        <div className="md:col-span-2 grid  grid-cols-2 md:grid-cols-3 gap-6">
+        <div className="md:col-span-2 grid  grid-cols-1 md:grid-cols-3 gap-6">
 
           <ServiceCard title="Custom Website Design" icon={<AiFillCode />} />
           <ServiceCard title="Front-end Development" icon={<FaLaptopCode />} />
