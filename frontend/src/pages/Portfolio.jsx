@@ -6,7 +6,7 @@ const Portfolio = () => {
   return (
     <div className="bg-[rgba(178,206,243,0.2)] dark:bg-[rgba(10,0,0,0.9)] p-10 md:p-20">
       <div className="">
-        <h1 className="font-archivo text-8xl mt-10 text-center uppercase dark:text-zinc-50">Projects</h1>
+        <h1 className="font-archivo text-4xl md:text-8xl mt-10 text-center uppercase dark:text-zinc-50">Projects</h1>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-20 flex-wrap">
         {
