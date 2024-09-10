@@ -85,7 +85,7 @@ const projectData = {
         "javascript",
         "react",
       ],
-      "url": "https://dipenboyaju.github.io/wedu/"
+      "url": "https://wedu-kappa.vercel.app/"
     },
     {
       "id": 5,
@@ -104,7 +104,7 @@ const projectData = {
         "javascript",
         "react",
       ],
-      "url": "https://dipenboyaju.github.io/tripo/"
+      "url": "https://tripo.vercel.app/"
     },
     {
       "id": 6,
