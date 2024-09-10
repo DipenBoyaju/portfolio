@@ -29,7 +29,7 @@ const Navbar = ({ setShowMenu }) => {
         <div className="flex flex-col gap-6">
           <Link to="/#about" onClick={handleClose} className="text-[2.5rem] font-normal font-archivo hover:text-zinc-500 dark:text-zinc-100 dark:hover:text-zinc-400 transition-all">About</Link>
           <Link to="/#service" onClick={handleClose} className="text-[2.5rem] font-normal font-archivo hover:text-zinc-500 transition-all dark:text-zinc-100 dark:hover:text-zinc-400">Service</Link>
-          <Link to="/#works" onClick={handleClose} className="text-[2.5rem] font-normal font-archivo hover:text-zinc-500 transition-all dark:text-zinc-100 dark:hover:text-zinc-400">Wrok</Link>
+          <Link to="/#works" onClick={handleClose} className="text-[2.5rem] font-normal font-archivo hover:text-zinc-500 transition-all dark:text-zinc-100 dark:hover:text-zinc-400">Work</Link>
           <Link to="/#contact" onClick={handleClose} className="text-[2.5rem] font-normal font-archivo hover:text-zinc-500 transition-all dark:text-zinc-100 dark:hover:text-zinc-400">Contact</Link>
         </div>
         <span className="absolute right-8 border-2 border-zinc-600 dark:border-zinc-300 dark:text-zinc-300 rounded-full p-3 top-6 cursor-pointer hover:text-red-400 hover:border-red-400 dark:hover:text-red-400 dark:hover:border-red-400 transition-all duration-300 hover:rotate-90" onClick={handleClose}><RxCross2 className="text-2xl" /></span>
