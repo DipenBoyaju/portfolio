@@ -79,15 +79,15 @@ const GetInTouch = ({ setShowContact }) => {
         <form onSubmit={handleSubmit} className="space-y-6 mt-8">
           <div className="flex flex-col gap-3">
             <label className="font-semibold font-poppins text-zinc-800 dark:text-zinc-300">Name</label>
-            <input type="text" className="h-[60px] rounded-lg px-4 font-poppins dark:bg-[#180a0a] dark:text-zinc-300" name="name" value={formData.name} onChange={handleChange} placeholder="ex. John Doe" />
+            <input type="text" className="h-[60px] rounded-lg px-4 font-poppins dark:bg-[#180a0a] dark:text-zinc-300" name="name" value={formData.name} onChange={handleChange} placeholder="ex. John Doe" required />
           </div>
           <div className="flex flex-col gap-3">
             <label className="font-semibold font-poppins text-zinc-800 dark:text-zinc-300">Email</label>
-            <input type="email" className="h-[60px] rounded-lg px-4 font-poppins dark:bg-[#180a0a] dark:text-zinc-300" name="email" value={formData.email} onChange={handleChange} placeholder="johndoe@example.com" />
+            <input type="email" className="h-[60px] rounded-lg px-4 font-poppins dark:bg-[#180a0a] dark:text-zinc-300" name="email" value={formData.email} onChange={handleChange} placeholder="johndoe@example.com" required />
           </div>
           <div className="flex flex-col gap-3">
             <label className="font-semibold font-poppins text-zinc-800 dark:text-zinc-300">Description</label>
-            <textarea rows="5" className="rounded-lg px-4 font-poppins py-2 dark:bg-[#180a0a] dark:text-zinc-300" name="description" value={formData.description} onChange={handleChange} placeholder="I need help with..." />
+            <textarea rows="5" className="rounded-lg px-4 font-poppins py-2 dark:bg-[#180a0a] dark:text-zinc-300" name="description" value={formData.description} onChange={handleChange} placeholder="I need help with..." required />
           </div>
           <button className="bg-green-500 text-white px-6 py-3 rounded-full text-lg font-normal tracking-wider dark:bg-[rgba(30,0,0,0.9)] dark:hover:bg-[rgba(20,0,0,0.9)] transition-all duration-500 w-64" type="submit">{
             isLoading ? <Loader className="animate-spin text-center" /> : 'Send Message'
