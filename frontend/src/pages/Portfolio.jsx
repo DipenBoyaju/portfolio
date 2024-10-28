@@ -16,7 +16,7 @@ const Portfolio = () => {
                 <p className="dark:bg-orange-600 bg-zinc-100 rounded-full absolute mx-auto text-xl scale-0 group-hover:scale-105 transition-all duration-700 md:left-[30%] left-[40%] h-32 w-32 flex justify-center items-center top-1/4 dark:text-zinc-100 text-zinc-700">View</p>
               </span>
               <img src={item.bannerImage} alt="" />
-              <p className="dark:bg-orange-600 bg-zinc-300 absolute bottom-0 dark:text-zinc-50 text-zinc-900 w-full items-center flex justify-center py-4 font-poppins font-thin text-2xl">{item.title}</p>
+              <p className="dark:bg-orange-600 bg-zinc-300 absolute bottom-0 dark:text-zinc-50 text-zinc-900 w-full items-center flex justify-center py-4 font-poppins font-thin back text-2xl">{item.title}</p>
             </span>
           ))
         }

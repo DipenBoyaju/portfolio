@@ -10,7 +10,7 @@ const ProjectItem = () => {
       <div className=" mt-20">
         <div className="w-2/3 mx-auto text-center">
           <h1 className="font-archivo text-4xl md:text-8xl font-bold uppercase dark:text-zinc-50">{project.title}</h1>
-          <p className="font-poppins text-zinc-600 pt-5 dark:text-zinc-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, facilis molestiae deleniti inventore natus ipsum officiis cumque aspernatur modi praesentium.</p>
+          <p className="font-poppins text-zinc-600 pt-5 dark:text-zinc-400">{project.detail}</p>
         </div>
         <div className="flex items-center justify-center gap-10 font-poppins py-10">
           <Link to={project.url} target="_blank" className="text-zinc-800 flex items-center gap-2 cursor-pointer underline-offset-8 underline hover:text-zinc-600 dark:text-zinc-300 dark:hover:text-zinc-400 transition-all duration-500">View Live Website<MoveUpRight size={18} /></Link>
@@ -21,7 +21,7 @@ const ProjectItem = () => {
         <span className="flex flex-row gap-2 absolute bottom-5 left-5 flex-wrap">
           {
             project.tools.map((item, index) => (
-              <p key={index} className="bg-zinc-50 border border-zinc-900 uppercase font-poppins text-sm py-1 px-3 rounded-full dark:bg-zinc-900 dark:text-zinc-400">{item}</p>
+              <p key={index} className=" border border-zinc-400 uppercase font-poppins text-sm py-1 px-3 rounded-full dark:bg-zinc-900 dark:text-zinc-400 backdrop-blur-lg bg-zinc-50">{item}</p>
             ))
           }
         </span>

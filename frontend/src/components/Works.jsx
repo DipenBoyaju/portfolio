@@ -40,7 +40,7 @@ const Works = () => {
       </div>
       <div data-scroll-section data-scroll className="grid md:grid-cols-2 md:gap-10 px-10 md:px-20">
         {
-          projectData.projects.map((item, index) => (
+          projectData.projects.slice(0, 6).map((item, index) => (
             // <WrokCard item={item} key={index} />
             <WorkCards item={item} key={index} />
           ))
