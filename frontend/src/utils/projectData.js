@@ -6,6 +6,7 @@ import wedu from '../assets/images/wedu.png'
 import cocobasic from '../assets/images/cocobasic.png'
 import meddical from '../assets/images/meddical.png'
 import buzzchat from '../assets/images/buzzchat.png'
+import podverse from '../assets/images/podverse.png'
 
 const projectData = {
   "projects": [
@@ -55,6 +56,28 @@ const projectData = {
     },
     {
       "id": 3,
+      "title": "PodVerse",
+      "detail": "A podcast website for users to discover, stream, and engage with podcast content.",
+      "category": "PodCast Website",
+      "client": "",
+      "year": 2024,
+      "image": "",
+      "bannerImage": podverse,
+      "overview": "",
+      "tools": [
+        "html",
+        "css",
+        "javascript",
+        "react",
+        "redux toolkit",
+        // "nodejs",
+        // "mongoDB",
+        // "express js",
+      ],
+      "url": "https://podverse-chi.vercel.app/"
+    },
+    {
+      "id": 4,
       "title": "BuzzChat",
       "detail": "A real-time chat application enabling user-to-user interactions in various chat rooms with seamless message streaming.",
       "category": "Real-Time Chat Application",
@@ -77,7 +100,7 @@ const projectData = {
       "url": "https://buzzchat-two.vercel.app/"
     },
     {
-      "id": 4,
+      "id": 5,
       "title": "SoMovies",
       "detail": "A React-based movie exploration app where users can browse trending movies and view detailed information about each title.",
       "category": "Movie Discovery Web Application",
@@ -97,7 +120,7 @@ const projectData = {
       "url": "https://somovie.vercel.app/"
     },
     {
-      "id": 5,
+      "id": 6,
       "title": "Spotify Clone",
       "detail": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, facilis molestiae deleniti inventore natus ipsum officiis cumque aspernatur modi praesentium.",
       "category": "Music Website",
@@ -117,7 +140,7 @@ const projectData = {
       "url": "https://spotify-tau-dun.vercel.app/"
     },
     {
-      "id": 6,
+      "id": 7,
       "title": "Wedu",
       "detail": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, facilis molestiae deleniti inventore natus ipsum officiis cumque aspernatur modi praesentium.",
       "category": "Enterprise  Website",
@@ -135,7 +158,7 @@ const projectData = {
       "url": "https://wedu-kappa.vercel.app/"
     },
     {
-      "id": 7,
+      "id": 8,
       "title": "Tripo",
       "detail": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, facilis molestiae deleniti inventore natus ipsum officiis cumque aspernatur modi praesentium.",
       "category": "Gaming Website",
@@ -154,7 +177,7 @@ const projectData = {
       "url": "https://tripo.vercel.app/"
     },
     {
-      "id": 8,
+      "id": 9,
       "title": "CocoBasic",
       "detail": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, facilis molestiae deleniti inventore natus ipsum officiis cumque aspernatur modi praesentium.",
       "category": "Enterprise  Website",
